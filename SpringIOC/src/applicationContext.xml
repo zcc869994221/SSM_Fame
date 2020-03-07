@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--spring01 无参构造方法注入-->
+    <bean id="stu" class="com.bjsxt.spring01.Student"/>
+
+    <!--
+        使用有参构造创建对象
+        constructor-arg：
+        Student stu3 = new Student(name,age,sex);
+        1此时的name名字跟形参保持一致，而不是属性
+        2形参顺序不用和标签顺序一致
+        3我们使用name属性进行调用
+            除了name属性还有
+            index（从0开始）
+            type：数据类型
+    -->
+    <bean id="stu2" class="com.bjsxt.spring02.Student"/>
+    <bean id="stu3" class="com.bjsxt.spring02.Student">
+        <constructor-arg name="a" index="0" type="java.lang.String" value="张三"/>
+        <constructor-arg name="b" index="1" type="int" value="18"/>
+    </bean>
+
+    <!--使用工厂创建对象-->
+    <bean id="factory" class="com.bjsxt.spring03.Factory"/>
+    <bean id="be" factory-bean="factory" factory-method="getInstance">
+        <constructor-arg name="param" value="stu" type="java.lang.String" index="0"/>
+    </bean>
+    <!--静态的工厂设计模式-->
+    <bean id="be2" class="com.bjsxt.spring03.Factory" factory-method="getInstance2">
+        <constructor-arg name="param" type="java.lang.String" index="0" value="tea"/>
+    </bean>
+</beans>

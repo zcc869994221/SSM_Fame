@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+        有参构造的方式进行DI注入
+        用ref传对象属性类型的值
+    -->
+    <bean id="cla" class="com.bjsxt.Spring04.Clazz">
+        <constructor-arg name="clazzno" value="507"></constructor-arg>
+        <constructor-arg name="cname" value="java1ban"></constructor-arg>
+    </bean>
+   <!-- <bean name="stu" class="com.bjsxt.spring04.Student">
+        <constructor-arg name="age" value="18"></constructor-arg>
+        <constructor-arg name="name" value="张三"></constructor-arg>
+        <constructor-arg name="sex" value="男"></constructor-arg>
+        <constructor-arg name="clazz" ref="cla"></constructor-arg>
+    </bean>-->
+
+    <!--
+        使用set方法DI注入
+        用ref来传对象属性类型的值
+        value和ref的使用场景
+        value：注入的属性类型是基本数据类型（包括String）
+        ref：注入的属性类型是对象(Object 是对象)
+
+        一般更多使用set方法注入
+    -->
+  <!--  <bean id="stu" class="com.bjsxt.spring04.Student">
+        <property name="name" value="李四"></property>
+        <property name="sex" value="男"></property>
+        <property name="age" value="20"></property>
+        <property name="clazz" ref="cla"></property>
+    </bean>-->
+
+    <!--
+        自动注入
+
+        autowire：
+        底层是set方法
+            byName:这个时候就会在当前xml中寻找【bean的id名称】和需要注入的【属性名】一致，进行匹配
+            比如：属性名叫clazz  Id名也应该叫clazz
+            byType:在当前xml中寻找【bean标签的类型】和需要注入实体中的【属性类型】一致，进行匹配
+        底层是构造器
+            constructor:这个时候会根据有【参构造器的形参名】名称进行查找，如果名称不一致，再根据【有参构造器的类型】类型查找
+            注意：在指定的类中必须有合适的有参构造器
+    -->
+    <bean id="stu" class="com.bjsxt.Spring04.Student" autowire="constructor"></bean>
+
+    <!--
+        DI其他类型值的注入
+        数组，List，Set，Map等
+    -->
+    <bean id="user" class="com.bjsxt.Spring04.User">
+        <property name="arr">
+            <array>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+            </array>
+        </property>
+        <property name="list">
+            <list>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+            </list>
+        </property>
+        <property name="set">
+            <set>
+                <value>A</value>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+            </set>
+        </property>
+        <property name="map">
+            <map>
+            <entry>
+                <key><value>A</value></key>
+                <value>1</value>
+                </entry>
+                <entry>
+                    <key><value>B</value></key>
+                    <value>2</value>
+                </entry>
+                <entry>
+                    <key><value>C</value></key>
+                    <value>3</value>
+                </entry>
+            </map>
+        </property>
+    </bean>
+</beans>
