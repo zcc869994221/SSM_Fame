@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+    <!--读取属性文件-->
+    <context:property-placeholder location="classpath:jdbc.properties"/>
+
+    <!--【1】配置数据库jdbc-->
+    <bean id="dataBase" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="${driver1}"/>
+        <property name="url" value="${url1}"/>
+        <property name="username" value="root"/>
+        <property name="password" value="root"/>
+    </bean>
+    <!--【2】建立SqlSession工厂对象-->
+    <bean id="factory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataBase"/>
+        <!--设置别名-->
+        <property name="typeAliasesPackage" value="com.bjsxt.pojo"/>
+    </bean>
+    <!--【3】注入工厂，扫描mapper-->
+    <bean id="mapper" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!--注入工厂-->
+        <property name="sqlSessionFactoryBeanName" value="factory"/>
+        <!--扫描mapper-->
+        <property name="basePackage" value="com.bjsxt.mapper"/>
+    </bean>
+
+    <!--配置adminMapper对象-->
+    <bean id="adminService" class="com.bjsxt.service.impl.AdminServiceImpl">
+        <!--ref里的adminMapper是Spring自动生成的-->
+        <property name="adminMapper" ref="adminMapper"/>
+    </bean>
+</beans>

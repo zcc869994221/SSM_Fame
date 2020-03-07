@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Spring_MyBatis:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8106c897-7691-4dcd-a950-4df28710e364" name="Default Changelist" comment="" />
+    <list default="true" id="8106c897-7691-4dcd-a950-4df28710e364" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Spring_MyBatis_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_MyBatis/Spring_MyBatis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_MyBatis/web/WEB-INF/lib/aopalliance.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_MyBatis/web/WEB-INF/lib/asm-3.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_MyBatis/web/WEB-INF/lib/aspectjweaver.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_MyBatis/web/WEB-INF/lib/cglib-2.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_MyBatis/web/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_MyBatis/web/WEB-INF/lib/javassist-3.17.1-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_MyBatis/web/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_MyBatis/web/WEB-INF/lib/log4j-api-2.0-rc1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_MyBatis/web/WEB-INF/lib/log4j-core-2.0-rc1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_MyBatis/web/WEB-INF/lib/mybatis-3.2.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_MyBatis/web/WEB-INF/lib/mybatis-spring-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_MyBatis/web/WEB-INF/lib/mysql-connector-java-5.1.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_MyBatis/web/WEB-INF/lib/slf4j-api-1.7.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_MyBatis/web/WEB-INF/lib/slf4j-log4j12-1.7.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_MyBatis/web/WEB-INF/lib/spring-aop-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_MyBatis/web/WEB-INF/lib/spring-aspects-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_MyBatis/web/WEB-INF/lib/spring-beans-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_MyBatis/web/WEB-INF/lib/spring-context-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_MyBatis/web/WEB-INF/lib/spring-core-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_MyBatis/web/WEB-INF/lib/spring-expression-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_MyBatis/web/WEB-INF/lib/spring-jdbc-4.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_MyBatis/web/WEB-INF/lib/spring-tx-4.1.6.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +46,56 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spring_MyBatis/src/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="39" column="26" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="26" />
+              <folding>
+                <element signature="e#1100#1112#0" expanded="true" />
+                <element signature="e#1150#1159#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spring_MyBatis/src/com/bjsxt/service/impl/AdminServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-155">
+              <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+                <element signature="e#524#525#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Spring_MyBatis/src/com/bjsxt/controller/AdminLogin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spring_MyBatis/web/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -22,11 +103,17 @@
         <option value="XML Files" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>schemaLocation</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/SpringIOC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -46,45 +133,97 @@
         <option value="$PROJECT_DIR$/SpringIOC/src/applicationContext2.xml" />
         <option value="$PROJECT_DIR$/SpringIOC/src/applicationContext.xml" />
         <option value="$PROJECT_DIR$/SpringIOC/src/com/bjsxt/spring03/Test.java" />
+        <option value="$PROJECT_DIR$/Spring_MyBatis/src/com/bjsxt/pojo/Admin.java" />
+        <option value="$PROJECT_DIR$/Spring_MyBatis/src/com/bjsxt/mapper/AdminMapper.java" />
+        <option value="$PROJECT_DIR$/Spring_MyBatis/src/com/bjsxt/mapper/AdminMapper.xml" />
+        <option value="$PROJECT_DIR$/Spring_MyBatis/src/jdbc.properties" />
+        <option value="$PROJECT_DIR$/Spring_MyBatis/src/com/bjsxt/service/AdminService.java" />
+        <option value="$PROJECT_DIR$/Spring_MyBatis/src/com/bjsxt/service/impl/AdminServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Spring_MyBatis/src/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/Spring_MyBatis/web/success.jsp" />
+        <option value="$PROJECT_DIR$/Spring_MyBatis/web/login.jsp" />
+        <option value="$PROJECT_DIR$/Spring_MyBatis/src/com/bjsxt/controller/AdminLogin.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <showMembers ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_MyBatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_MyBatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_MyBatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bjsxt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_MyBatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bjsxt" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Spring_MyBatis/web" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.bjsxt.service" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\Study\Spring_MyBatis\web" />
+      <recent name="D:\IdeaProjects\Study\Spring_MyBatis\src" />
+      <recent name="D:\IdeaProjects\Study\Spring_MyBatis\web\WEB-INF\lib" />
       <recent name="D:\IdeaProjects\Study\SpringIOC\src" />
       <recent name="D:\IdeaProjects\Study\SpringIOC\src\com\bjsxt\spring03" />
-      <recent name="D:\IdeaProjects\Study\SpringIOC\src\com\bjsxt\spring02" />
-      <recent name="D:\IdeaProjects\Study\SpringIOC\src\com\bjsxt\spring01" />
-      <recent name="D:\IdeaProjects\Study\SpringIOC\web\WEB-INF\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -99,7 +238,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (2)">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.38">
+    <configuration name="AdminServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bjsxt.service.impl.AdminServiceImpl" />
+      <module name="Spring_MyBatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bjsxt.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bjsxt.spring02.Test" />
       <module name="SpringIOC" />
@@ -152,8 +304,90 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tomcat 8.5.38" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.38" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <deployment>
+        <artifact name="Spring_MyBatis:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Spring_MyBatis" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Study" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8080" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Spring_MyBatis:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.AdminServiceImpl" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.Test (2)" />
+      <item itemvalue="Application.Test (3)" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.38" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AdminServiceImpl" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (3)" />
         <item itemvalue="Application.Test (1)" />
@@ -171,7 +405,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583573890133</updated>
-      <workItem from="1583573891497" duration="7007000" />
+      <workItem from="1583573891497" duration="11980000" />
     </task>
     <task id="LOCAL-00001" summary="SpringIOC学习">
       <created>1583583106806</created>
@@ -184,28 +418,30 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7007000" />
+    <option name="totallyTimeSpent" value="11980000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Web" order="3" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.25" />
-      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.49857143" visible="true" weight="0.25" />
+      <window_info id="Structure" order="5" sideWeight="0.50142854" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Spring" order="2" />
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="6" visible="true" />
+      <window_info anchor="bottom" id="Messages" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" />
+      <window_info anchor="bottom" id="Run" order="10" visible="true" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -442,6 +678,126 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Spring_MyBatis/src/com/bjsxt/pojo/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring_MyBatis/src/com/bjsxt/mapper/AdminMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring_MyBatis/src/com/bjsxt/mapper/AdminMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring_MyBatis/src/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/Spring_MyBatis/web/WEB-INF/lib/spring-aop-4.1.6.RELEASE.jar!/org/springframework/aop/config/spring-aop-4.1.xsd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/Spring_MyBatis/web/WEB-INF/lib/spring-jdbc-4.1.6.RELEASE.jar!/org/springframework/jdbc/datasource/DriverManagerDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/Spring_MyBatis/web/WEB-INF/lib/spring-jdbc-4.1.6.RELEASE.jar!/org/springframework/jdbc/datasource/LazyConnectionDataSourceProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-279">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/Spring_MyBatis/web/WEB-INF/lib/mybatis-spring-1.2.3.jar!/org/mybatis/spring/SqlSessionFactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="119" column="16" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/Spring_MyBatis/web/WEB-INF/lib/mybatis-spring-1.2.3.jar!/org/mybatis/spring/mapper/MapperScannerConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring_MyBatis/src/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="1" column="59" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring_MyBatis/src/com/bjsxt/service/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring_MyBatis/src/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="39" column="26" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="26" />
+          <folding>
+            <element signature="e#1100#1112#0" expanded="true" />
+            <element signature="e#1150#1159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring_MyBatis/web/success.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring_MyBatis/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring_MyBatis/src/com/bjsxt/service/impl/AdminServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-155">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spring_MyBatis/src/com/bjsxt/controller/AdminLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -492,6 +848,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
+          <last-edited>Spring_MyBatis</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -503,6 +860,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>lib</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

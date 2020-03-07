@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringIOC/SpringIOC.iml" filepath="$PROJECT_DIR$/SpringIOC/SpringIOC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_MyBatis/Spring_MyBatis.iml" filepath="$PROJECT_DIR$/Spring_MyBatis/Spring_MyBatis.iml" />
     </modules>
   </component>
 </project>
