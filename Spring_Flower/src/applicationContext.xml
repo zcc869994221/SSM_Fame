@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--配置jdbc的数据源-->
+        <bean id="dataSouse" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+            <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+            <property name="url" value="jdbc:mysql://localhost:3306/sxt?serverTimezone=GMT%2B8"/>
+            <property name="username" value="root"/>
+            <property name="password" value="root"/>
+        </bean>
+    <!--建立工厂，获取sqlsession对象-->
+        <bean id="factory" class="org.mybatis.spring.SqlSessionFactoryBean">
+            <!--导入数据源-->
+            <property name="dataSource" ref="dataSouse"/>
+            <!--建立别名-->
+            <property name="typeAliasesPackage" value="com.bjsxt.pojo"/>
+        </bean>
+    <!--扫描mapper文件-->
+        <bean id="mapper" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+            <property name="sqlSessionFactoryBeanName" value="factory"/>
+            <property name="basePackage" value="com.bjsxt.mapper"/>
+        </bean>
+    <!--注入业务层的值-->
+    <bean id="flower" class="com.bjsxt.service.impl.FlowerServiceImpl">
+        <property name="mapper" ref="flowerMapper"/>
+    </bean>
+</beans>
