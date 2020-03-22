@@ -41,4 +41,20 @@
         <!--ref里的adminMapper是Spring自动生成的-->
         <property name="adminMapper" ref="adminMapper"/>
     </bean>
+
+    <!--配置声明式事务-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataBase"/>
+    </bean>
+    <!--配置事务通知-->
+    <tx:advice id="tx" transaction-manager="transactionManager">
+        <tx:attributes>
+            <tx:method name="login"/>
+        </tx:attributes>
+    </tx:advice>
+    <!--植入切面-->
+    <aop:config>
+        <aop:pointcut id="pt" expression="execution(* com.bjsxt.service.impl.AdminServiceImpl.*(..))"/>
+        <aop:advisor advice-ref="tx" pointcut-ref="pt"/>
+    </aop:config>
 </beans>
