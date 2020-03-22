@@ -25,6 +25,7 @@
                 <td>${flower.name}</td>
                 <td>${flower.price}</td>
                 <td>${flower.production}</td>
+                <td><input type="button" value="删除"></td>
             </tr>
         </c:forEach>
     </table>
