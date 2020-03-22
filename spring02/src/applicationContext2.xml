@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd">
+    <!--配置实体类对象-->
+    <bean id="user" class="com.bjsxt.pojo.User"/>
+    <!--配置通知-->
+    <bean id="aspect" class="com.bjsxt.advice.AspectJAdvice"/>
+
+    <aop:config>
+        <aop:pointcut id="pt" expression="execution(* com.bjsxt.pojo.User.a(..))"/>
+        <aop:aspect ref="aspect">
+            <aop:before method="beforeAd2" pointcut-ref="pt"/>
+            <aop:before method="beforeAd" pointcut-ref="pt"/>
+        </aop:aspect>
+    </aop:config>
+</beans>
