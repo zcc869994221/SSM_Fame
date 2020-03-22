@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bjsxt.mapper.AccountMapper">
+    <select id="selectOne" resultType="Account">
+        select * from account
+        <where>
+            <if test="cno!=null and cno!=''">
+                and cno = #{cno}
+            </if>
+            <if test="pwd!=null and pwd!=''">
+               and pwd = #{pwd}
+            </if>
+            <if test="money!=null and money!=''">
+               and money >= #{money}
+            </if>
+        </where>
+    </select>
+    <update id="update1">
+        update account set money=money-#{money} where cno = #{cno}
+    </update>
+    <update id="update2">
+        update account set money=money+#{money} where cno = #{cno}
+    </update>
+</mapper>
