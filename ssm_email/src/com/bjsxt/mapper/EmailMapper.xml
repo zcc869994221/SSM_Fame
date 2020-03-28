@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bjsxt.mapper.EmailMapper">
+    <resultMap id="rm1" type="email">
+        <id property="eid" column="eid"/>
+        <result column="ecno" property="ecno"/>
+        <result column="etitle" property="etitle"/>
+        <result column="filename" property="filename"/>
+        <result column="recid" property="recid"/>
+        <result column="sendid" property="sendid"/>
+        <result column="edate" property="edate"/>
+        <association property="user" javaType="User">
+            <id property="uid" column="uid"/>
+            <result property="uname" column="uname"/>
+            <result property="pwd" column="pwd"/>
+        </association>
+    </resultMap>
+    <select id="selectMore" parameterType="_int" resultMap="rm1">
+        select * from email e left join user u on e.sendid = u.uid where e.recid = #{0}
+    </select>
+
+    <insert id="insertEmail" parameterType="Email">
+        insert into email values(default,#{etitle},#{ecno},#{filename},#{recid},#{sendid},#{edate})
+    </insert>
+</mapper>
